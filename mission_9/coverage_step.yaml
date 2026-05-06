@@ -3,7 +3,7 @@
                   name: produce coverage report
                   identifier: produce_coverage_report
                   spec:
-                    connectorRef: account.account_level_dockerhub_connector
+                    connectorRef: account.project_level_dockerhub_connector
                     image: python:3-alpine
                     shell: Sh
                     command: |-
